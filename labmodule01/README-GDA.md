@@ -39,6 +39,8 @@ NOTE: Include one or more UML designs representing your solution. It's expected 
 diagram you provide will look similar to, but not the same as, its counterpart in the
 book [Programming the IoT](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/).
 
+![CDA drawio](https://github.com/user-attachments/assets/af812420-3ecd-48cf-a49b-ccaa56c4ca4f)
+
 
 ### Unit Tests Executed
 
