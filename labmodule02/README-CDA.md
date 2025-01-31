@@ -8,9 +8,24 @@ Be sure to implement all the PIOT-CDA-* issues (requirements) listed at [PIOT-IN
 
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
-What does your implementation do? 
+The implementation deals with executing the Constrained device environment, which is a python based library. In this scenario, it emulates hardware (R-pi with a sense hat) and its funcionalities. Thought no internal (system performance etc.) and external (temp, humidity etc.) parameters are being analysed in this module, it sets the stage for executing them in later lab modules.
 
-How does your implementation work?
+In this module, the necessary python packages and dependencies are installed. The environment setup :-
+
+The implementation is as follows :-
+
+1. Clone the repos locally
+2. Setting the environments and paths for python to compile the concerned application - ConstrainedDeviceApp.py
+3. Exectue the unit test case ConfigUtilTest.py
+3. Setting up a remote repo, branching out to a develop branch, pushing changes
+
+
+
+Majority of the challenges :-
+
+1. Incorrect path - /~/ used instead of the right path /home/Bharath
+2. Forgot to setup PYTHONPATH for each instance of the termnial (can be checked with echo $PTYHONPATH), in the future the path can be permanently added
+
 
 ### Code Repository and Branch
 
